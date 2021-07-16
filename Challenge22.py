@@ -34,9 +34,9 @@ while __name__ == "__main__":
             try:
                 num = float(input(">"))
                 nums.append(num)
-                break
             except ValueError:
                 times_table(*nums)
+                break
     elif no == 2:
         while True:
             try:
